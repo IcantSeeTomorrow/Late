@@ -110,6 +110,7 @@
     <Compile Include="GameServer.cs" />
     <Compile Include="Managers\CharacterManager.cs" />
     <Compile Include="Managers\DataManager.cs" />
+    <Compile Include="Managers\EntityManager.cs" />
     <Compile Include="Managers\MapManager.cs" />
     <Compile Include="Models\Map.cs" />
     <Compile Include="Network\ExtensionMethods.cs" />
@@ -133,9 +134,6 @@
     <Compile Include="TCharacter.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
-    <Compile Include="TCharItem.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
     <Compile Include="TPlayer.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
@@ -154,7 +152,6 @@
     </EntityDeploy>
     <None Include="Entities.edmx.diagram">
       <DependentUpon>Entities.edmx</DependentUpon>
-      <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
