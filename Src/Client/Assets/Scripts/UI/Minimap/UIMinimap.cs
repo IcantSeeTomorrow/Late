@@ -15,8 +15,8 @@ public class UIMinimap : MonoBehaviour
     public Text mapName;
 
     private Transform playerTransform;
-    // Use this for initialization
-    void Start()
+
+    private  void Start()
     {
         this.InitMap();
     }
@@ -32,7 +32,6 @@ public class UIMinimap : MonoBehaviour
         this.playerTransform = null;
     }
 
-    //// Update is called once per frame
     void Update()
     {
         if (playerTransform == null)

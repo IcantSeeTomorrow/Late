@@ -19,7 +19,6 @@ namespace Managers
             }
         }
 
-
         public Sprite LoadCurrentMinimap()
         {
             return Resloader.Load<Sprite>("UI/Minimap/" + User.Instance.CurrentMapData.MiniMap);
