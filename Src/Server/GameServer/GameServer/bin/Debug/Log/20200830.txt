@@ -1,0 +1,669 @@
+
+2020-08-30 00:22:15,562 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 00:22:15,957 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 00:22:16,429 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 00:22:16,443 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 00:22:16,445 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 00:22:16,448 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 00:22:16,450 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 00:22:16,498 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 00:22:16,498 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 00:22:16,498 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 00:22:16,500 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 00:22:17,467 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 00:22:18,465 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 00:22:19,466 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 00:22:20,466 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 00:22:20,488 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 11:07:33,012 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 11:07:33,264 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 11:07:33,613 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 11:07:33,616 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 11:07:33,618 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 11:07:33,619 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 11:07:33,620 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 11:07:33,663 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 11:07:33,663 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 11:07:33,664 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 11:07:33,664 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 11:07:34,628 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 11:07:35,626 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 11:07:36,627 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 11:07:37,626 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 11:07:37,651 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 13:16:38,434 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 13:16:38,634 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 13:16:38,853 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 13:16:38,857 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 13:16:38,857 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 13:16:38,858 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 13:16:38,859 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 13:16:38,862 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:16:38,863 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:16:38,863 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:16:38,864 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:16:39,862 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:16:40,862 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:16:41,862 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:16:42,862 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:16:42,890 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 13:17:02,987 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54490]] Connected
+2020-08-30 13:17:03,064 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2020-08-30 13:17:03,202 [5] [INFO ] [GameServer] ：UserLoginRequest: User:cao  Pass:dd
+2020-08-30 13:17:10,544 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2020-08-30 13:17:10,550 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:6:Bug测试员 Map:1
+2020-08-30 13:17:10,593 [7] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 对象名 'dbo.CharacterItems' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:9651a4a0-8e18-4b22-8260-28bbf1f4120f
+Error Number:208,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Load(List`1 collection, MergeOption mergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__1(TProxy proxy, TItem item)
+   在 System.Data.Entity.DynamicProxies.TCharacter_EFE538FF26CECBA445AF03A853B321DE7A32858EEA0309640DADAC39184D731C.get_Items()
+   在 Managers.ItemManager..ctor(Character owner) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 25
+   在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 39
+   在 GameServer.Managers.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 36
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 152
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 13:17:27,049 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2020-08-30 13:26:43,202 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 13:26:43,539 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 13:26:43,943 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 13:26:43,949 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 13:26:43,950 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 13:26:43,951 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 13:26:43,955 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 13:26:43,976 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:26:43,979 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:26:43,979 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:26:43,979 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:26:44,963 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:26:45,962 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:26:46,960 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:26:47,961 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:26:48,006 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 13:27:07,189 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54828]] Connected
+2020-08-30 13:27:07,263 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2020-08-30 13:27:07,409 [5] [INFO ] [GameServer] ：UserLoginRequest: User:cao  Pass:dd
+2020-08-30 13:27:12,764 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2020-08-30 13:27:12,772 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:6:Bug测试员 Map:1
+2020-08-30 13:27:12,910 [6] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 对象名 'dbo.CharacterItems' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:244d5bd8-406f-4af9-944d-c71fa8d8beb0
+Error Number:208,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Load(List`1 collection, MergeOption mergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__1(TProxy proxy, TItem item)
+   在 System.Data.Entity.DynamicProxies.TCharacter_EFE538FF26CECBA445AF03A853B321DE7A32858EEA0309640DADAC39184D731C.get_Items()
+   在 Managers.ItemManager..ctor(Character owner) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 25
+   在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 39
+   在 GameServer.Managers.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 36
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 152
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 13:27:18,778 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2020-08-30 13:28:01,163 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 13:28:01,566 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 13:28:01,956 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 13:28:01,960 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 13:28:01,960 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 13:28:01,961 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 13:28:01,963 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 13:28:02,008 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:28:02,009 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:28:02,009 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:28:02,010 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:28:02,970 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:28:03,973 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:28:04,972 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:28:06,472 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:28:06,498 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 13:28:19,369 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54862]] Connected
+2020-08-30 13:28:19,443 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2020-08-30 13:28:19,620 [5] [INFO ] [GameServer] ：UserLoginRequest: User:cao  Pass:dd
+2020-08-30 13:28:25,532 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2020-08-30 13:28:25,537 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:6:Bug测试员 Map:1
+2020-08-30 13:28:25,637 [6] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 列名 'CharacterID' 无效。
+列名 'ItemID' 无效。
+列名 'ItemCount' 无效。
+列名 'CharacterID' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:5bb07921-0d62-4a06-9b8c-2fe28d1855c1
+Error Number:207,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Load(List`1 collection, MergeOption mergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__1(TProxy proxy, TItem item)
+   在 System.Data.Entity.DynamicProxies.TCharacter_EFE538FF26CECBA445AF03A853B321DE7A32858EEA0309640DADAC39184D731C.get_Items()
+   在 Managers.ItemManager..ctor(Character owner) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 25
+   在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 39
+   在 GameServer.Managers.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 36
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 152
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 13:28:26,428 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2020-08-30 13:28:26,430 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:6:Bug测试员 Map:1
+2020-08-30 13:28:26,456 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 列名 'CharacterID' 无效。
+列名 'ItemID' 无效。
+列名 'ItemCount' 无效。
+列名 'CharacterID' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:5bb07921-0d62-4a06-9b8c-2fe28d1855c1
+Error Number:207,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Load(List`1 collection, MergeOption mergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__1(TProxy proxy, TItem item)
+   在 System.Data.Entity.DynamicProxies.TCharacter_EFE538FF26CECBA445AF03A853B321DE7A32858EEA0309640DADAC39184D731C.get_Items()
+   在 Managers.ItemManager..ctor(Character owner) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 25
+   在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 39
+   在 GameServer.Managers.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 36
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 152
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 13:28:37,731 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2020-08-30 13:35:52,228 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 13:35:52,589 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 13:35:53,031 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 13:35:53,033 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 13:35:53,034 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 13:35:53,035 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 13:35:53,036 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 13:35:53,070 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:35:53,070 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:35:53,070 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:35:53,070 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:35:54,044 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:35:55,042 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:35:56,043 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:35:57,043 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:35:57,076 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 13:36:08,780 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55120]] Connected
+2020-08-30 13:36:08,859 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2020-08-30 13:36:09,005 [5] [INFO ] [GameServer] ：UserLoginRequest: User:cao  Pass:dd
+2020-08-30 13:36:14,083 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2020-08-30 13:36:14,088 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:gg Map:1
+2020-08-30 13:36:14,206 [6] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 列名 'TCharacterID' 无效。
+列名 'ItemID' 无效。
+列名 'ItemCount' 无效。
+列名 'TCharacterID' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:d7f215f5-6785-4998-b561-bfb2c1cba3c8
+Error Number:207,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Load(List`1 collection, MergeOption mergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__1(TProxy proxy, TItem item)
+   在 System.Data.Entity.DynamicProxies.TCharacter_EFE538FF26CECBA445AF03A853B321DE7A32858EEA0309640DADAC39184D731C.get_Items()
+   在 Managers.ItemManager..ctor(Character owner) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 25
+   在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 39
+   在 GameServer.Managers.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 36
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 152
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 13:36:22,799 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2020-08-30 13:39:54,806 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 13:39:55,126 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 13:39:55,498 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 13:39:55,502 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 13:39:55,503 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 13:39:55,504 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 13:39:55,508 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 13:39:55,547 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:39:55,547 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:39:55,548 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:39:55,549 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:39:56,520 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:39:57,519 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:39:58,518 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:39:59,520 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:39:59,577 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 13:40:23,592 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55224]] Connected
+2020-08-30 13:40:23,663 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2020-08-30 13:40:23,802 [5] [INFO ] [GameServer] ：UserLoginRequest: User:cao  Pass:dd
+2020-08-30 13:40:29,225 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2020-08-30 13:40:29,232 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:xiaofa Map:1
+2020-08-30 13:40:29,337 [6] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 列名 'TCharacterID' 无效。
+列名 'ItemID' 无效。
+列名 'ItemCount' 无效。
+列名 'TCharacterID' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:20ac6431-17ad-49ca-a7d9-921951e32369
+Error Number:207,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Load(List`1 collection, MergeOption mergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__1(TProxy proxy, TItem item)
+   在 System.Data.Entity.DynamicProxies.TCharacter_EFE538FF26CECBA445AF03A853B321DE7A32858EEA0309640DADAC39184D731C.get_Items()
+   在 Managers.ItemManager..ctor(Character owner) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 25
+   在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 39
+   在 GameServer.Managers.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 36
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 152
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 13:40:35,051 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2020-08-30 13:48:03,959 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 13:48:04,474 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 13:48:04,831 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 13:48:04,834 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 13:48:04,835 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 13:48:04,836 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 13:48:04,838 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 13:48:04,876 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:48:04,876 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:48:04,877 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:48:04,877 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:55:17,013 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 13:55:17,369 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 13:55:17,770 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 13:55:17,773 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 13:55:17,775 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 13:55:17,776 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 13:55:17,777 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 13:55:17,819 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:55:17,819 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:55:17,820 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:55:17,820 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:55:18,783 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:55:19,783 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:55:20,782 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:55:21,782 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 13:55:21,814 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 14:04:25,947 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 14:04:26,520 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 14:04:27,038 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 14:04:27,041 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 14:04:27,041 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 14:04:27,042 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 14:04:27,044 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 14:04:27,085 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:04:27,085 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:04:27,094 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:04:27,094 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:04:28,049 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:04:29,050 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:04:30,049 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:04:31,049 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:04:31,081 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 14:06:53,594 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 14:06:53,987 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 14:06:54,344 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 14:06:54,346 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 14:06:54,347 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 14:06:54,347 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 14:06:54,348 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 14:06:54,357 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:06:54,357 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:06:54,359 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:06:54,359 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:06:55,352 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:06:56,352 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:06:57,352 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:06:58,353 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:06:58,378 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 14:07:14,068 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56049]] Connected
+2020-08-30 14:07:14,134 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2020-08-30 14:07:14,271 [5] [INFO ] [GameServer] ：UserLoginRequest: User:cao  Pass:dd
+2020-08-30 14:07:19,019 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2020-08-30 14:07:19,025 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:6:Bug测试员 Map:1
+2020-08-30 14:07:19,129 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 对象名 'dbo.CharacterItems' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:94aa2776-c8dd-4cbb-a925-86170f468aeb
+Error Number:208,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Load(List`1 collection, MergeOption mergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__1(TProxy proxy, TItem item)
+   在 System.Data.Entity.DynamicProxies.TCharacter_EFE538FF26CECBA445AF03A853B321DE7A32858EEA0309640DADAC39184D731C.get_Items()
+   在 Managers.ItemManager..ctor(Character owner) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 25
+   在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 39
+   在 GameServer.Managers.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 36
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 152
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 14:07:20,477 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2020-08-30 14:07:20,479 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:6:Bug测试员 Map:1
+2020-08-30 14:07:20,522 [6] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 对象名 'dbo.CharacterItems' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:94aa2776-c8dd-4cbb-a925-86170f468aeb
+Error Number:208,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Load(List`1 collection, MergeOption mergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__1(TProxy proxy, TItem item)
+   在 System.Data.Entity.DynamicProxies.TCharacter_EFE538FF26CECBA445AF03A853B321DE7A32858EEA0309640DADAC39184D731C.get_Items()
+   在 Managers.ItemManager..ctor(Character owner) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 25
+   在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 39
+   在 GameServer.Managers.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 36
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 152
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 14:07:27,131 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2020-08-30 14:14:00,220 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 14:14:00,788 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 14:14:01,288 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 14:14:01,293 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 14:14:01,294 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 14:14:01,295 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 14:14:01,298 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 14:14:01,359 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:14:01,359 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:14:01,360 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:14:01,360 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:14:02,314 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:16:13,926 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 14:16:14,228 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 14:16:14,672 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 14:16:14,677 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 14:16:14,677 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 14:16:14,678 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 14:16:14,681 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 14:16:14,709 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:16:14,710 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:16:14,710 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:16:14,713 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:19:51,895 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 14:19:52,239 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 14:19:52,604 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 14:19:52,608 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 14:19:52,609 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 14:19:52,610 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 14:19:52,613 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 14:19:52,633 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:19:52,633 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:19:52,633 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:19:52,636 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:19:53,622 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:19:54,625 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:19:55,625 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:19:56,622 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:19:56,647 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 14:22:06,234 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 14:22:06,517 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 14:22:06,888 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 14:22:06,893 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 14:22:06,894 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 14:22:06,895 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 14:22:06,900 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 14:22:06,926 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:22:06,929 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:22:06,929 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:22:06,929 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:22:07,914 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:22:08,914 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:22:09,914 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:10,092 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 14:29:10,667 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 14:29:11,129 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 14:29:11,135 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 14:29:11,141 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 14:29:11,144 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 14:29:11,154 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 14:29:11,174 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:11,175 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:11,176 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:11,176 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:12,162 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:23,309 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 14:29:23,664 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 14:29:24,083 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 14:29:24,085 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 14:29:24,086 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 14:29:24,087 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 14:29:24,088 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 14:29:24,132 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:24,132 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:24,132 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:24,133 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:25,093 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:26,092 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:27,094 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:28,094 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:29:28,118 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 14:29:35,810 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56768]] Connected
+2020-08-30 14:29:35,875 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2020-08-30 14:29:36,018 [5] [INFO ] [GameServer] ：UserLoginRequest: User:cao  Pass:dd
+2020-08-30 14:29:46,095 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2020-08-30 14:29:46,098 [6] [INFO ] [GameServer] ：UserRegisterRequest: User:cao  Pass:dd
+2020-08-30 14:29:48,877 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2020-08-30 14:29:48,879 [5] [INFO ] [GameServer] ：UserLoginRequest: User:cao  Pass:dd
+2020-08-30 14:29:56,352 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2020-08-30 14:29:56,401 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.MapService.OnMapEntitySync(NetConnection`1 sender, MapEntitySyncRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 32
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 14:29:56,534 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2020-08-30 14:29:56,548 [6] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.MapService.OnMapEntitySync(NetConnection`1 sender, MapEntitySyncRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 32
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 14:29:56,567 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2020-08-30 14:29:56,582 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.MapService.OnMapEntitySync(NetConnection`1 sender, MapEntitySyncRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 32
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 14:29:57,661 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2020-08-30 14:29:57,676 [6] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.MapService.OnMapEntitySync(NetConnection`1 sender, MapEntitySyncRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 32
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 14:29:57,810 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2020-08-30 14:29:57,830 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.MapService.OnMapEntitySync(NetConnection`1 sender, MapEntitySyncRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 32
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 14:29:57,843 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2020-08-30 14:29:57,866 [6] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.MapService.OnMapEntitySync(NetConnection`1 sender, MapEntitySyncRequest request) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 32
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2020-08-30 14:30:11,603 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2020-08-30 14:30:11,610 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:BUG测试员  Class:Archer
+2020-08-30 14:30:13,658 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2020-08-30 14:30:13,662 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:BUG测试员 Map:1
+2020-08-30 14:30:13,668 [5] [INFO ] [GameServer] ：HasItem:[1][False]
+2020-08-30 14:30:13,671 [5] [INFO ] [GameServer] ：[1]AddItem[ID:1,Count:2] addCount:2
+2020-08-30 14:30:13,818 [5] [INFO ] [GameServer] ：[1]GetItem[1:ID:1,Count:2]
+2020-08-30 14:30:13,820 [5] [INFO ] [GameServer] ：Item:[1][ID:1,Count:2]
+2020-08-30 14:30:13,827 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2020-08-30 14:30:21,908 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2020-08-30 14:30:21,911 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:BUG测试员 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2020-08-30 14:30:22,014 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2020-08-30 14:30:22,017 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:BUG测试员 Entity.Id:1 Evt:None Entity:(1:pos:(5040,4000,820),dir:(98,-19,0),spd:300
+2020-08-30 14:30:22,114 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2020-08-30 14:30:22,117 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:BUG测试员 Entity.Id:1 Evt:None Entity:(1:pos:(5070,3994,820),dir:(93,-37,0),spd:300
+2020-08-30 14:30:22,205 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2020-08-30 14:30:22,208 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:BUG测试员 Entity.Id:1 Evt:None Entity:(1:pos:(5095,3984,820),dir:(85,-53,0),spd:300
+2020-08-30 14:30:22,301 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2020-08-30 14:30:22,304 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:BUG测试员 Entity.Id:1 Evt:None Entity:(1:pos:(5119,3966,820),dir:(72,-69,0),spd:300
+2020-08-30 14:30:22,401 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2020-08-30 14:30:22,404 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:BUG测试员 Entity.Id:1 Evt:None Entity:(1:pos:(5143,3948,820),dir:(56,-83,0),spd:300
+2020-08-30 14:30:22,498 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2020-08-30 14:30:22,503 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:BUG测试员 Entity.Id:1 Evt:None Entity:(1:pos:(5161,3924,820),dir:(38,-93,0),spd:300
+2020-08-30 14:30:22,564 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2020-08-30 14:30:22,566 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:BUG测试员 Entity.Id:1 Evt:Idle Entity:(1:pos:(5169,3904,820),dir:(38,-93,0),spd:0
+2020-08-30 14:30:22,597 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2020-08-30 14:30:22,600 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:BUG测试员 Entity.Id:1 Evt:None Entity:(1:pos:(5169,3904,820),dir:(18,-98,0),spd:0
+2020-08-30 14:30:22,697 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2020-08-30 14:30:22,700 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:BUG测试员 Entity.Id:1 Evt:None Entity:(1:pos:(5169,3904,820),dir:(0,-100,0),spd:0
+2020-08-30 14:31:16,684 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2020-08-30 14:31:16,692 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2020-08-30 14:32:44,362 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 14:32:44,875 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 14:32:45,701 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 14:32:45,705 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 14:32:45,706 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 14:32:45,706 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 14:32:45,711 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 14:32:45,760 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:32:45,765 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:32:45,767 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:32:45,769 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:32:46,749 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:32:47,750 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:32:48,748 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:32:49,749 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 14:32:49,755 [1] [WARN ] [GameServer] ：NetService Started
+2020-08-30 14:33:39,251 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56836]] Connected
+2020-08-30 14:33:39,320 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2020-08-30 14:33:39,459 [5] [INFO ] [GameServer] ：UserLoginRequest: User:cao  Pass:dd
+2020-08-30 14:33:46,194 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2020-08-30 14:33:46,200 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:BUG测试员 Map:1
+2020-08-30 14:33:46,255 [6] [INFO ] [GameServer] ：HasItem:[1][True]
+2020-08-30 14:33:46,256 [6] [INFO ] [GameServer] ：[1]RemoveItem[ID:1,Count:1] removeCount:1
+2020-08-30 14:33:46,640 [6] [INFO ] [GameServer] ：[1]GetItem[1:ID:1,Count:1]
+2020-08-30 14:33:46,641 [6] [INFO ] [GameServer] ：Item:[1][ID:1,Count:1]
+2020-08-30 14:33:46,646 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2020-08-30 20:40:05,509 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 20:40:06,146 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 20:40:06,805 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 20:40:06,842 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 20:40:06,885 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 20:40:06,907 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 20:40:06,909 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 20:40:06,956 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 20:40:07,035 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 20:40:07,035 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 20:40:07,104 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 20:41:19,975 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 20:41:20,318 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 20:41:20,755 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 20:41:20,767 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 20:41:20,768 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 20:41:20,769 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 20:41:20,771 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 20:41:20,813 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 20:41:20,844 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 20:41:20,845 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 20:41:20,845 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 22:28:23,108 [1] [INFO ] [GameServer] ：Game Server Init
+2020-08-30 22:28:23,693 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-08-30 22:28:24,927 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-08-30 22:28:24,930 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-08-30 22:28:24,930 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-08-30 22:28:24,931 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-08-30 22:28:24,935 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-08-30 22:28:25,004 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 22:28:25,004 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 22:28:25,007 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 22:28:25,007 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-08-30 22:28:25,971 [9] [WARN ] [GameServer] ：MessageDistribute thread start
