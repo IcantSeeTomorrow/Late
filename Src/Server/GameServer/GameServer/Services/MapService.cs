@@ -34,16 +34,12 @@ namespace GameServer.Services
             MapManager.Instance[character.Info.mapId].UpdateEntity(request.entitySync);
         }
 
-        internal void SendEntityUpdate(NetConnection<NetSession> connection, NEntitySync entity)
+        internal void SendEntityUpdate(NetConnection<NetSession> sender, NEntitySync entity)
         {
-            NetMessage message = new NetMessage();
-            message.Response = new NetMessageResponse();
+            sender.Session.Response.mapEntitySync = new MapEntitySyncResponse();
+            sender.Session.Response.mapEntitySync.entitySyncs.Add(entity);
 
-            message.Response.mapEntitySync = new MapEntitySyncResponse();
-            message.Response.mapEntitySync.entitySyncs.Add(entity);
-
-            byte[] data = PackageHandler.PackMessage(message);
-            connection.SendData(data, 0, data.Length);
+            sender.SendResponse();
         }
 
         void OnMapTeleport(NetConnection<NetSession> sender, MapTeleportRequest request)

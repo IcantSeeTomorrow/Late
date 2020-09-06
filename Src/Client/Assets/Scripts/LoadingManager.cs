@@ -7,6 +7,8 @@ using System.IO;
 using SkillBridge.Message;
 using ProtoBuf;
 using Services;
+using Managers;
+
 
 public class LoadingManager : MonoBehaviour {
 
@@ -39,13 +41,16 @@ public class LoadingManager : MonoBehaviour {
         //Init basic services
         MapService.Instance.Init();
         UserService.Instance.Init();
+        ShopManager.Instance.Init();
 
+        //TestManager.Instance.Init();
 
         // Fake Loading Simulate
         for (float i = 50; i < 100;)
         {
             i += Random.Range(0.1f, 1.5f);
             progressBar.value = i;
+            progressNumber.text = (int)progressBar.value + "%";
             yield return new WaitForEndOfFrame();
         }
 

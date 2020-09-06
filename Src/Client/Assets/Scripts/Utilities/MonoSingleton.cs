@@ -15,10 +15,9 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
             }
             return instance;
         }
-
     }
 
-    void Start()
+    void Awake()
     {
         if (global)
         {

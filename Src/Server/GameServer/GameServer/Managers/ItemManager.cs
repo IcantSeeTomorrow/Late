@@ -85,7 +85,6 @@ namespace Managers
             }
             this.Owner.StatusManager.AddItemChange(itemId, count, StatusAction.Add);
             Log.InfoFormat("[{0}]AddItem[{1}] addCount:{2}", this.Owner.Data.ID, item, count);
-            //DBService.Instance.Save();
             return true;
         }
 

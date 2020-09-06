@@ -1326,3 +1326,14 @@
 2020-09-01 11:57:43,747 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
 2020-09-01 11:57:53,241 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
 2020-09-01 11:57:53,243 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2020-09-01 20:45:29,475 [1] [INFO ] [GameServer] ：Game Server Init
+2020-09-01 20:45:29,789 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2020-09-01 20:45:30,206 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2020-09-01 20:45:30,211 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2020-09-01 20:45:30,211 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2020-09-01 20:45:30,225 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日余晖
+2020-09-01 20:45:30,231 [1] [WARN ] [GameServer] ：Starting Listener...
+2020-09-01 20:45:30,297 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-09-01 20:45:30,303 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-09-01 20:45:30,304 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2020-09-01 20:45:30,304 [8] [WARN ] [GameServer] ：MessageDistribute thread start

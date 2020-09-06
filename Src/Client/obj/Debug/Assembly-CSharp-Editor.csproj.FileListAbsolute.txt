@@ -120,7 +120,6 @@ E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\Boo.Lang.Us
 E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\Unity.CecilTools.dll
 E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\Unity.Cecil.Pdb.dll
 E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\Unity.Cecil.Mdb.dll
-E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\Assembly-CSharp.pdb
 E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\UnityEngine.xml
 E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\UnityEditor.xml
 E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\UnityEngine.AIModule.xml
@@ -208,3 +207,4 @@ E:\极世界课时文件\mmorpg-l-13-start\Src\Client\obj\Debug\Assembly-CSharp-
 E:\极世界课时文件\mmorpg-l-13-start\Src\Client\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 E:\极世界课时文件\mmorpg-l-13-start\Src\Client\obj\Debug\Assembly-CSharp-Editor.dll
 E:\极世界课时文件\mmorpg-l-13-start\Src\Client\obj\Debug\Assembly-CSharp-Editor.pdb
+E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\Assembly-CSharp.pdb

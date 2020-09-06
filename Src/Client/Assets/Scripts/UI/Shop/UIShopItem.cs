@@ -9,11 +9,12 @@ using UnityEngine.UI;
 /// <summary>
 /// 
 /// </summary>
-public class UIShopItem : MonoBehaviour,ISelectHandler
+public class UIShopItem : MonoBehaviour, ISelectHandler
 {
     public Image icon;
     public Text title;
     public Text price;
+    public Text limitClass;
     public Text count;
 
     public Image background;
@@ -44,8 +45,9 @@ public class UIShopItem : MonoBehaviour,ISelectHandler
         this.item = DataManager.Instance.Items[this.ShopItem.ItemID];
 
         this.title.text = this.item.Name;
-        this.count.text = shopItem.Count.ToString();
+        this.count.text = "x" + shopItem.Count.ToString();
         this.price.text = shopItem.Price.ToString();
+        this.limitClass.text = this.item.LimitClass.ToString();
         this.icon.overrideSprite = Resloader.Load<Sprite>(item.Icon);
     }
 

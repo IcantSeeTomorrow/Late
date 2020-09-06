@@ -59,6 +59,26 @@ public class UIMain : MonoSingleton<UIMain>
             UIManager.Instance.Close(typeof(UIBag));
             BagOpen = false;
         }
+    }
 
+    private bool EquipPanelOpen = false;
+    public void OnClickCharEquip()
+    {
+        if (!EquipPanelOpen)
+        {
+            UIManager.Instance.Show<UICharEquip>();
+            EquipPanelOpen = true;
+        }
+        else
+        {
+            UIManager.Instance.Close(typeof(UICharEquip));
+            EquipPanelOpen = false;
+        }
+
+    }
+
+    public void OnClickQuest()
+    {
+        UIManager.Instance.Show<UIQuestSystem>();
     }
 }

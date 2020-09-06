@@ -19,9 +19,6 @@ public class TeleporterObject : MonoBehaviour
 
      void OnTriggerEnter(Collider other)
     {
-        Debug.LogFormat("TriggerEnterererererererererer1");
-        Debug.LogFormat("TriggerEnterererererererererer2");
-        Debug.LogFormat("TriggerEnterererererererererer3");
         PlayerInputController playerInputController = other.GetComponent<PlayerInputController>();
         if (playerInputController != null && playerInputController.isActiveAndEnabled)
         {

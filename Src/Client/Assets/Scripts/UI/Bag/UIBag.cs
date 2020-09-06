@@ -27,7 +27,7 @@ public class UIBag : UIWindow
             }
         }
         StartCoroutine(InitBags());
-        SetMoneyText();
+        this.money.text = User.Instance.CurrentCharacter.Gold.ToString();
     }
 
     IEnumerator InitBags()
@@ -50,13 +50,21 @@ public class UIBag : UIWindow
         yield return null;
     }
 
-    public void SetMoneyText()
+    void Clear()
     {
-        this.money.text = User.Instance.CurrentCharacter.Gold.ToString();
+        for (int i = 0; i < slots.Count; i++)
+        {
+            if (slots[i].transform.childCount>0)
+            {
+                Destroy(slots[i].transform.GetChild(0).gameObject);
+            }
+        }
     }
 
     public void OnReset()
     {
         BagManager.Instance.Reset();
+        this.Clear();
+        StartCoroutine(InitBags());
     }
 }

@@ -58,4 +58,54 @@ public class MapTool : MonoBehaviour
         EditorSceneManager.OpenScene("Assets/Levels/" + currentScene + ".unity");
         EditorUtility.DisplayDialog("提示", "传送点导出完成", "确定");
     }
+
+    [MenuItem("Map Tool/Export SpawnPoints")]
+    public static void ExportSpawnPoints()
+    {
+        DataManager.Instance.Load();
+
+        Scene current = EditorSceneManager.GetActiveScene();
+        string currentScene = current.name;
+        if (current.isDirty)
+        {
+            EditorUtility.DisplayDialog("提示", "请先保存当前场景", "确定");
+            return;
+        }
+
+        if (DataManager.Instance.SpawnPoints==null)
+            DataManager.Instance.SpawnPoints = new Dictionary<int, Dictionary<int, SpawnPointDefine>>();       
+
+        foreach (var map in DataManager.Instance.Maps)
+        {
+            string sceneFile = "Assets/Levels/" + map.Value.Resource + ".unity";
+            if (!System.IO.File.Exists(sceneFile))
+            {
+                Debug.LogWarningFormat("Scene {0} not existed!", sceneFile);
+                continue;
+            }
+            EditorSceneManager.OpenScene(sceneFile, OpenSceneMode.Single);
+
+            SpawnPoint[] spawnPoints = GameObject.FindObjectsOfType<SpawnPoint>();
+
+            if (!DataManager.Instance.SpawnPoints.ContainsKey(map.Value.ID))
+                DataManager.Instance.SpawnPoints[map.Value.ID] = new Dictionary<int, SpawnPointDefine>();
+
+            foreach (var spawnPoint in spawnPoints)
+            {
+                if (!DataManager.Instance.SpawnPoints[map.Value.ID].ContainsKey(spawnPoint.ID))
+                {
+                    DataManager.Instance.SpawnPoints[map.Value.ID][spawnPoint.ID] = new SpawnPointDefine();
+                }
+
+                SpawnPointDefine def = DataManager.Instance.SpawnPoints[map.Value.ID][spawnPoint.ID];
+                def.ID = spawnPoint.ID;
+                def.MapID = map.Value.ID;
+                def.Position = GameObjectTool.WorldToLogicN(spawnPoint.transform.position);
+                def.Direction = GameObjectTool.WorldToLogicN(spawnPoint.transform.forward);
+            }
+        }
+        DataManager.Instance.SaveSpawnPoints();
+        EditorSceneManager.OpenScene("Assets/Levels/" + currentScene + ".unity");
+        EditorUtility.DisplayDialog("提示", "刷怪点导出完成", "确定");
+    }
 }
