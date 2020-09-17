@@ -31,6 +31,10 @@ namespace GameServer
             UserService.Instance.Init();
             ItemService.Instance.Init();
             QuestService.Instance.Init();
+            FriendService.Instance.Init();
+            TeamService.Instance.Init();
+            GuildService.Instance.Init();
+
             thread = new Thread(new ThreadStart(this.Update));
 
             return true;

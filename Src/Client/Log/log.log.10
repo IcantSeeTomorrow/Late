@@ -1,288 +1,42 @@
-2020-09-05 14:17:18,592 [ 1] INFO  Unity: LoadingManager start
-2020-09-05 14:17:21,892 [ 1] INFO  Unity: DataManager > DataManager()
-2020-09-05 14:17:24,693 [ 1] INFO  Unity: UserLoginRequest::user :q1 psw:1
-2020-09-05 14:17:24,695 [ 1] INFO  Unity: ConnectToServer() Start 
-2020-09-05 14:17:24,696 [ 1] INFO  Unity: DoConnect
-2020-09-05 14:17:24,698 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2020-09-05 14:17:24,701 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2020-09-15 12:02:16,702 [ 1] INFO  Unity: LoadingManager start
+2020-09-15 12:02:19,919 [ 1] INFO  Unity: DataManager > DataManager()
+2020-09-15 12:02:24,714 [ 1] INFO  Unity: UserLoginRequest::user :q1 psw:1
+2020-09-15 12:02:24,716 [ 1] INFO  Unity: ConnectToServer() Start 
+2020-09-15 12:02:24,717 [ 1] INFO  Unity: DoConnect
+2020-09-15 12:02:24,719 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2020-09-15 12:02:24,721 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2020-09-05 14:17:24,706 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2020-09-05 14:17:24,858 [ 1] INFO  Unity: OnLogin:Success [None]
-2020-09-05 14:17:24,860 [ 1] INFO  Unity: LoadLevel: CharSelect
-2020-09-05 14:17:25,032 [ 1] INFO  Unity: LevelLoadCompleted:1
-2020-09-05 14:17:25,935 [ 1] INFO  Unity: Select Char:[1]Bug测试员[Archer]
-2020-09-05 14:17:26,442 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2020-09-05 14:17:26,487 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2020-09-05 14:17:26,489 [ 1] INFO  Unity: ItemManager Init[ID:1,Count:20]
-2020-09-05 14:17:26,490 [ 1] INFO  Unity: ItemManager Init[ID:2,Count:20]
-2020-09-05 14:17:26,492 [ 1] INFO  Unity: ItemManager Init[ID:3,Count:10]
-2020-09-05 14:17:26,493 [ 1] INFO  Unity: ItemManager Init[ID:4,Count:10]
-2020-09-05 14:17:26,504 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2020-09-05 14:17:26,507 [ 1] INFO  Unity: AddCharacter:2:Bug测试员 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2020-09-05 14:17:26,510 [ 1] INFO  Unity: LoadLevel: MainCity
-2020-09-05 14:17:26,998 [ 1] INFO  Unity: LevelLoadCompleted:1
-2020-09-05 14:17:27,644 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
-2020-09-05 14:17:27,646 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(98,-18,0) SPD:0 
-2020-09-05 14:17:27,745 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
-2020-09-05 14:17:27,746 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(93,-36,0) SPD:0 
-2020-09-05 14:17:27,827 [ 1] INFO  Unity: SetDirection:(85, -52, 0)
-2020-09-05 14:17:27,828 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(85,-52,0) SPD:0 
-2020-09-05 14:17:27,926 [ 1] INFO  Unity: SetDirection:(73, -69, 0)
-2020-09-05 14:17:27,927 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(73,-69,0) SPD:0 
-2020-09-05 14:17:28,026 [ 1] INFO  Unity: SetDirection:(57, -82, 0)
-2020-09-05 14:17:28,027 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(57,-82,0) SPD:0 
-2020-09-05 14:17:28,109 [ 1] INFO  Unity: SetDirection:(42, -91, 0)
-2020-09-05 14:17:28,110 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(42,-91,0) SPD:0 
-2020-09-05 14:17:28,193 [ 1] INFO  Unity: SetDirection:(25, -97, 0)
-2020-09-05 14:17:28,194 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(25,-97,0) SPD:0 
-2020-09-05 14:17:28,292 [ 1] INFO  Unity: SetDirection:(5, -100, 0)
-2020-09-05 14:17:28,293 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(5,-100,0) SPD:0 
-2020-09-05 14:17:28,375 [ 1] INFO  Unity: SetDirection:(-13, -99, 0)
-2020-09-05 14:17:28,376 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-13,-99,0) SPD:0 
-2020-09-05 14:17:28,468 [ 1] INFO  Unity: SetDirection:(-33, -94, 0)
-2020-09-05 14:17:28,469 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-33,-94,0) SPD:0 
-2020-09-05 14:17:28,586 [ 1] INFO  Unity: SetDirection:(-52, -85, 0)
-2020-09-05 14:17:28,587 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-52,-85,0) SPD:0 
-2020-09-05 14:17:28,674 [ 1] INFO  Unity: SetDirection:(-69, -73, 0)
-2020-09-05 14:17:28,675 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-69,-73,0) SPD:0 
-2020-09-05 14:17:28,774 [ 1] INFO  Unity: SetDirection:(-82, -57, 0)
-2020-09-05 14:17:28,775 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-82,-57,0) SPD:0 
-2020-09-05 14:17:28,858 [ 1] INFO  Unity: SetDirection:(-91, -42, 0)
-2020-09-05 14:17:28,859 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-91,-42,0) SPD:0 
-2020-09-05 14:17:28,941 [ 1] INFO  Unity: SetDirection:(-97, -25, 0)
-2020-09-05 14:17:28,942 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-97,-25,0) SPD:0 
-2020-09-05 14:17:29,045 [ 1] INFO  Unity: SetDirection:(-100, -5, 0)
-2020-09-05 14:17:29,046 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-100,-5,0) SPD:0 
-2020-09-05 14:17:29,129 [ 1] INFO  Unity: SetDirection:(-99, 13, 0)
-2020-09-05 14:17:29,129 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-99,13,0) SPD:0 
-2020-09-05 14:17:29,228 [ 1] INFO  Unity: SetDirection:(-94, 33, 0)
-2020-09-05 14:17:29,229 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-94,33,0) SPD:0 
-2020-09-05 14:17:29,300 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{KeyNotFoundException: The given key was not present in the dictionary., System.Collections.Generic.Dictionary`2[System.Int32,Models.Item].get_Item (Int32 key) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/Dictionary.cs:150)
-UIQuestInfo.SetQuestInfo (Models.Quest quest) (at Assets/Scripts/UI/QuestSystem/UIQuestInfo.cs:58)
-UIQuestSystem.OnQuestSelected (.ListViewItem item) (at Assets/Scripts/UI/QuestSystem/UIQuestSystem.cs:104)
-ListView.set_SelectedItem (.ListViewItem value) (at Assets/Scripts/UI/ListView/ListView.cs:58)
-ListView+ListViewItem.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Assets/Scripts/UI/ListView/ListView.cs:39)
-UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
-UnityEngine.EventSystems.EventSystem:Update()
+2020-09-15 12:02:24,725 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2020-09-15 12:02:25,970 [ 1] INFO  Unity: OnLogin:Success [None]
+2020-09-15 12:02:25,971 [ 1] INFO  Unity: LoadLevel: CharSelect
+2020-09-15 12:02:27,859 [ 1] INFO  Unity: LevelLoadCompleted:1
+2020-09-15 12:02:28,895 [ 1] INFO  Unity: Select Char:[1]AA[Wizard]
+2020-09-15 12:02:29,477 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2020-09-15 12:02:29,772 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2020-09-15 12:02:29,774 [ 1] INFO  Unity: ItemManager Init[ID:1,Count:20]
+2020-09-15 12:02:29,775 [ 1] INFO  Unity: ItemManager Init[ID:2,Count:20]
+2020-09-15 12:02:29,786 [ 1] ERROR Unity: Message handler exception:, Input string was not in a correct format., mscorlib,   at System.String.ParseFormatSpecifier (System.String str, System.Int32& ptr, System.Int32& n, System.Int32& width, System.Boolean& left_align, System.String& format) [0x00011] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/String.cs:2495 
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x000ce] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/String.cs:1923 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/String.cs:1873 
+  at System.String.Format (System.String format, System.Object[] args) [0x00000] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/String.cs:1868 
+  at UnityEngine.DebugLogHandler.LogFormat (LogType logType, UnityEngine.Object context, System.String format, System.Object[] args) [0x00005] in D:\unity\Runtime\Export\Logger\DebugLogHandler.cs:9 
+  at UnityEngine.Logger.LogFormat (LogType logType, System.String format, System.Object[] args) [0x00017] in D:\unity\Runtime\Export\Logger\Logger.cs:113 
+  at UnityEngine.Debug.LogFormat (System.String format, System.Object[] args) [0x00009] in D:\unity\Runtime\Export\Debug.bindings.cs:108 
+  at Services.GuildService.OnGuild (System.Object sender, SkillBridge.Message.GuildResponse message) [0x0003b] in E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Assets\Scripts\Services\GuildService.cs:142 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[GuildResponse] (System.Object sender, SkillBridge.Message.GuildResponse msg) [0x00044] in E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Common\Network\MessageDistributer.cs:105 
+2020-09-15 12:02:29,788 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{FormatException: Input string was not in a correct format., System.String.ParseFormatSpecifier (System.String str, System.Int32& ptr, System.Int32& n, System.Int32& width, System.Boolean& left_align, System.String& format) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/String.cs:2495)
+System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/String.cs:1923)
+System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/String.cs:1873)
+System.String.Format (System.String format, System.Object[] args) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/String.cs:1868)
+UnityEngine.DebugLogHandler.LogFormat (LogType logType, UnityEngine.Object context, System.String format, System.Object[] args) (at D:/unity/Runtime/Export/Logger/DebugLogHandler.cs:9)
+UnityEngine.Logger.LogFormat (LogType logType, System.String format, System.Object[] args) (at D:/unity/Runtime/Export/Logger/Logger.cs:113)
+UnityEngine.Debug.LogFormat (System.String format, System.Object[] args) (at D:/unity/Runtime/Export/Debug.bindings.cs:108)
+Services.GuildService.OnGuild (System.Object sender, SkillBridge.Message.GuildResponse message) (at Assets/Scripts/Services/GuildService.cs:142)
+Network.MessageDistributer`1[System.Object].RaiseEvent[GuildResponse] (System.Object sender, SkillBridge.Message.GuildResponse msg) (at E:/极世界课时文件/mmorpg-l-13-start/Src/Lib/Common/Network/MessageDistributer.cs:105)
 }</args></log4net.Error>
-2020-09-05 14:17:29,333 [ 1] INFO  Unity: SetDirection:(-85, 52, 0)
-2020-09-05 14:17:29,334 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-85,52,0) SPD:0 
-2020-09-05 14:17:29,433 [ 1] INFO  Unity: SetDirection:(-73, 69, 0)
-2020-09-05 14:17:29,434 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-73,69,0) SPD:0 
-2020-09-05 14:17:29,531 [ 1] INFO  Unity: SetDirection:(-57, 82, 0)
-2020-09-05 14:17:29,532 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-57,82,0) SPD:0 
-2020-09-05 14:17:29,614 [ 1] INFO  Unity: SetDirection:(-42, 91, 0)
-2020-09-05 14:17:29,615 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-42,91,0) SPD:0 
-2020-09-05 14:17:29,697 [ 1] INFO  Unity: SetDirection:(-25, 97, 0)
-2020-09-05 14:17:29,698 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-25,97,0) SPD:0 
-2020-09-05 14:17:29,764 [ 1] INFO  Unity: MoveForward
-2020-09-05 14:17:29,766 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-25,97,0) SPD:300 
-2020-09-05 14:17:29,797 [ 1] INFO  Unity: SetDirection:(-6, 100, 0)
-2020-09-05 14:17:29,797 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4998,4010,820) DIR:(-6,100,0) SPD:300 
-2020-09-05 14:17:29,962 [ 1] INFO  Unity: SetDirection:(12, 99, 0)
-2020-09-05 14:17:29,964 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4998,4060,820) DIR:(12,99,0) SPD:300 
-2020-09-05 14:17:31,462 [ 1] INFO  Unity: Stop
-2020-09-05 14:17:31,463 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5088,4510,820) DIR:(12,99,0) SPD:0 
-2020-09-05 14:17:31,555 [ 1] INFO  Unity: SetDirection:(-6, 100, 0)
-2020-09-05 14:17:31,556 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5088,4510,820) DIR:(-6,100,0) SPD:0 
-2020-09-05 14:17:31,572 [ 1] INFO  Unity: MoveForward
-2020-09-05 14:17:31,573 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5088,4510,820) DIR:(-6,100,0) SPD:300 
-2020-09-05 14:17:31,789 [ 1] INFO  Unity: Stop
-2020-09-05 14:17:31,791 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5088,4570,820) DIR:(-6,100,0) SPD:0 
-2020-09-05 14:17:32,087 [ 1] INFO  Unity: MoveForward
-2020-09-05 14:17:32,088 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5088,4570,820) DIR:(-6,100,0) SPD:300 
-2020-09-05 14:17:32,106 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{KeyNotFoundException: The given key was not present in the dictionary., System.Collections.Generic.Dictionary`2[System.Int32,Models.Item].get_Item (Int32 key) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/Dictionary.cs:150)
-UIQuestInfo.SetQuestInfo (Models.Quest quest) (at Assets/Scripts/UI/QuestSystem/UIQuestInfo.cs:64)
-UIQuestSystem.OnQuestSelected (.ListViewItem item) (at Assets/Scripts/UI/QuestSystem/UIQuestSystem.cs:104)
-ListView.set_SelectedItem (.ListViewItem value) (at Assets/Scripts/UI/ListView/ListView.cs:58)
-ListView+ListViewItem.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Assets/Scripts/UI/ListView/ListView.cs:39)
-UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
-UnityEngine.EventSystems.EventSystem:Update()
-}</args></log4net.Error>
-2020-09-05 14:17:32,220 [ 1] INFO  Unity: SetPosition:(5040, 4611, 805)
-2020-09-05 14:17:32,221 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5040,4611,805) DIR:(-6,100,0) SPD:300 
-2020-09-05 14:17:32,618 [ 1] INFO  Unity: SetDirection:(-23, 97, 0)
-2020-09-05 14:17:32,619 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5040,4731,805) DIR:(-23,97,0) SPD:300 
-2020-09-05 14:17:32,784 [ 1] INFO  Unity: SetDirection:(-41, 91, 0)
-2020-09-05 14:17:32,785 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5030,4781,805) DIR:(-41,91,0) SPD:300 
-2020-09-05 14:17:32,884 [ 1] INFO  Unity: SetPosition:(5026, 4761, 805)
-2020-09-05 14:17:32,885 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5026,4761,805) DIR:(-41,91,0) SPD:300 
-2020-09-05 14:17:33,050 [ 1] INFO  Unity: SetPosition:(5026, 4761, 805)
-2020-09-05 14:17:33,051 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5026,4761,805) DIR:(-41,91,0) SPD:300 
-2020-09-05 14:17:33,215 [ 1] INFO  Unity: SetPosition:(5026, 4761, 805)
-2020-09-05 14:17:33,225 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5026,4761,805) DIR:(-41,91,0) SPD:300 
-2020-09-05 14:17:33,383 [ 1] INFO  Unity: SetPosition:(5026, 4761, 805)
-2020-09-05 14:17:33,384 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5026,4761,805) DIR:(-41,91,0) SPD:300 
-2020-09-05 14:17:33,514 [ 1] INFO  Unity: Stop
-2020-09-05 14:17:33,515 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5010,4801,805) DIR:(-41,91,0) SPD:0 
-2020-09-05 14:17:34,858 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{KeyNotFoundException: The given key was not present in the dictionary., System.Collections.Generic.Dictionary`2[System.Int32,Models.Item].get_Item (Int32 key) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/Dictionary.cs:150)
-UIQuestInfo.SetQuestInfo (Models.Quest quest) (at Assets/Scripts/UI/QuestSystem/UIQuestInfo.cs:64)
-UIQuestSystem.OnQuestSelected (.ListViewItem item) (at Assets/Scripts/UI/QuestSystem/UIQuestSystem.cs:104)
-ListView.set_SelectedItem (.ListViewItem value) (at Assets/Scripts/UI/ListView/ListView.cs:58)
-ListView+ListViewItem.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Assets/Scripts/UI/ListView/ListView.cs:39)
-UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
-UnityEngine.EventSystems.EventSystem:Update()
-}</args></log4net.Error>
-2020-09-05 14:17:35,089 [ 1] INFO  Unity: MoveForward
-2020-09-05 14:17:35,090 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5010,4801,805) DIR:(-41,91,0) SPD:300 
-2020-09-05 14:17:35,124 [ 1] INFO  Unity: SetPosition:(5026, 4761, 805)
-2020-09-05 14:17:35,125 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5026,4761,805) DIR:(-41,91,0) SPD:300 
-2020-09-05 14:17:35,238 [ 1] INFO  Unity: SetDirection:(-57, 82, 0)
-2020-09-05 14:17:35,239 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5012,4796,805) DIR:(-57,82,0) SPD:300 
-2020-09-05 14:17:35,295 [ 1] INFO  Unity: SetPosition:(5026, 4761, 805)
-2020-09-05 14:17:35,296 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5026,4761,805) DIR:(-57,82,0) SPD:300 
-2020-09-05 14:17:35,357 [ 1] INFO  Unity: SetDirection:(-71, 70, 0)
-2020-09-05 14:17:35,358 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5014,4777,805) DIR:(-71,70,0) SPD:300 
-2020-09-05 14:17:35,449 [ 1] INFO  Unity: SetPosition:(5026, 4761, 805)
-2020-09-05 14:17:35,450 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5026,4761,805) DIR:(-71,70,0) SPD:300 
-2020-09-05 14:17:35,498 [ 1] INFO  Unity: SetDirection:(-82, 57, 0)
-2020-09-05 14:17:35,499 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5014,4773,805) DIR:(-82,57,0) SPD:300 
-2020-09-05 14:17:35,614 [ 1] INFO  Unity: SetPosition:(5025, 4761, 805)
-2020-09-05 14:17:35,615 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5025,4761,805) DIR:(-82,57,0) SPD:300 
-2020-09-05 14:17:35,813 [ 1] INFO  Unity: SetPosition:(5024, 4761, 805)
-2020-09-05 14:17:35,814 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5024,4761,805) DIR:(-82,57,0) SPD:300 
-2020-09-05 14:17:35,996 [ 1] INFO  Unity: SetPosition:(5023, 4761, 805)
-2020-09-05 14:17:35,996 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5023,4761,805) DIR:(-82,57,0) SPD:300 
-2020-09-05 14:17:36,179 [ 1] INFO  Unity: SetPosition:(5022, 4761, 805)
-2020-09-05 14:17:36,180 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5022,4761,805) DIR:(-82,57,0) SPD:300 
-2020-09-05 14:17:36,360 [ 1] INFO  Unity: SetPosition:(5021, 4761, 805)
-2020-09-05 14:17:36,361 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5021,4761,805) DIR:(-82,57,0) SPD:300 
-2020-09-05 14:17:36,509 [ 1] INFO  Unity: SetDirection:(-69, 72, 0)
-2020-09-05 14:17:36,510 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4985,4788,805) DIR:(-69,72,0) SPD:300 
-2020-09-05 14:17:36,543 [ 1] INFO  Unity: SetPosition:(5021, 4761, 805)
-2020-09-05 14:17:36,544 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5021,4761,805) DIR:(-69,72,0) SPD:300 
-2020-09-05 14:17:36,607 [ 1] INFO  Unity: SetDirection:(-55, 83, 0)
-2020-09-05 14:17:36,608 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5009,4777,805) DIR:(-55,83,0) SPD:300 
-2020-09-05 14:17:36,725 [ 1] INFO  Unity: SetPosition:(5021, 4761, 805)
-2020-09-05 14:17:36,726 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5021,4761,805) DIR:(-55,83,0) SPD:300 
-2020-09-05 14:17:36,774 [ 1] INFO  Unity: SetDirection:(-39, 92, 0)
-2020-09-05 14:17:36,775 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5012,4773,805) DIR:(-39,92,0) SPD:300 
-2020-09-05 14:17:36,890 [ 1] INFO  Unity: SetPosition:(5021, 4761, 805)
-2020-09-05 14:17:36,891 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5021,4761,805) DIR:(-39,92,0) SPD:300 
-2020-09-05 14:17:36,955 [ 1] INFO  Unity: Stop
-2020-09-05 14:17:36,956 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5013,4781,805) DIR:(-39,92,0) SPD:0 
-2020-09-05 14:17:37,072 [ 1] INFO  Unity: SetDirection:(-20, 98, 0)
-2020-09-05 14:17:37,073 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5013,4781,805) DIR:(-20,98,0) SPD:0 
-2020-09-05 14:17:37,171 [ 1] INFO  Unity: SetDirection:(-2, 100, 0)
-2020-09-05 14:17:37,172 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5013,4781,805) DIR:(-2,100,0) SPD:0 
-2020-09-05 14:17:37,270 [ 1] INFO  Unity: SetDirection:(19, 98, 0)
-2020-09-05 14:17:37,271 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5013,4781,805) DIR:(19,98,0) SPD:0 
-2020-09-05 14:17:37,370 [ 1] INFO  Unity: SetDirection:(39, 92, 0)
-2020-09-05 14:17:37,371 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5013,4781,805) DIR:(39,92,0) SPD:0 
-2020-09-05 14:17:37,468 [ 1] INFO  Unity: SetDirection:(57, 82, 0)
-2020-09-05 14:17:37,469 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5013,4781,805) DIR:(57,82,0) SPD:0 
-2020-09-05 14:17:37,552 [ 1] INFO  Unity: SetDirection:(71, 71, 0)
-2020-09-05 14:17:37,554 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5013,4781,805) DIR:(71,71,0) SPD:0 
-2020-09-05 14:17:37,651 [ 1] INFO  Unity: SetDirection:(84, 55, 0)
-2020-09-05 14:17:37,652 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5013,4781,805) DIR:(84,55,0) SPD:0 
-2020-09-05 14:17:37,734 [ 1] INFO  Unity: MoveBack
-2020-09-05 14:17:37,735 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5013,4781,805) DIR:(84,55,0) SPD:-300 
-2020-09-05 14:17:37,735 [ 1] INFO  Unity: SetDirection:(92, 39, 0)
-2020-09-05 14:17:37,736 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5013,4781,805) DIR:(92,39,0) SPD:-300 
-2020-09-05 14:17:37,849 [ 1] INFO  Unity: SetDirection:(98, 22, 0)
-2020-09-05 14:17:37,851 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4983,4769,805) DIR:(98,22,0) SPD:-300 
-2020-09-05 14:17:38,032 [ 1] INFO  Unity: SetDirection:(100, 4, 0)
-2020-09-05 14:17:38,033 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4928,4758,805) DIR:(100,4,0) SPD:-300 
-2020-09-05 14:17:38,463 [ 1] INFO  Unity: Stop
-2020-09-05 14:17:38,464 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4798,4758,805) DIR:(100,4,0) SPD:0 
-2020-09-05 14:17:38,694 [ 1] INFO  Unity: SetDirection:(99, -14, 0)
-2020-09-05 14:17:38,695 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4798,4758,805) DIR:(99,-14,0) SPD:0 
-2020-09-05 14:17:38,794 [ 1] INFO  Unity: SetDirection:(95, -32, 0)
-2020-09-05 14:17:38,795 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4798,4758,805) DIR:(95,-32,0) SPD:0 
-2020-09-05 14:17:38,877 [ 1] INFO  Unity: SetDirection:(88, -48, 0)
-2020-09-05 14:17:38,878 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4798,4758,805) DIR:(88,-48,0) SPD:0 
-2020-09-05 14:17:38,943 [ 1] INFO  Unity: MoveBack
-2020-09-05 14:17:38,944 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4798,4758,805) DIR:(88,-48,0) SPD:-300 
-2020-09-05 14:17:38,960 [ 1] INFO  Unity: SetDirection:(78, -62, 0)
-2020-09-05 14:17:38,961 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4794,4760,805) DIR:(78,-62,0) SPD:-300 
-2020-09-05 14:17:39,044 [ 1] INFO  Unity: SetDirection:(66, -75, 0)
-2020-09-05 14:17:39,045 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4774,4775,805) DIR:(66,-75,0) SPD:-300 
-2020-09-05 14:17:39,146 [ 1] INFO  Unity: SetDirection:(49, -87, 0)
-2020-09-05 14:17:39,146 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4756,4799,805) DIR:(49,-87,0) SPD:-300 
-2020-09-05 14:17:39,234 [ 1] INFO  Unity: SetDirection:(33, -94, 0)
-2020-09-05 14:17:39,235 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4746,4819,805) DIR:(33,-94,0) SPD:-300 
-2020-09-05 14:17:39,333 [ 1] INFO  Unity: SetDirection:(13, -99, 0)
-2020-09-05 14:17:39,334 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4734,4849,805) DIR:(13,-99,0) SPD:-300 
-2020-09-05 14:17:39,417 [ 1] INFO  Unity: SetDirection:(-5, -100, 0)
-2020-09-05 14:17:39,418 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4729,4874,805) DIR:(-5,-100,0) SPD:-300 
-2020-09-05 14:17:39,516 [ 1] INFO  Unity: SetDirection:(-25, -97, 0)
-2020-09-05 14:17:39,517 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4729,4904,805) DIR:(-25,-97,0) SPD:-300 
-2020-09-05 14:17:39,598 [ 1] INFO  Unity: SetDirection:(-42, -91, 0)
-2020-09-05 14:17:39,599 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4734,4929,805) DIR:(-42,-91,0) SPD:-300 
-2020-09-05 14:17:39,698 [ 1] INFO  Unity: SetDirection:(-60, -80, 0)
-2020-09-05 14:17:39,699 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4746,4959,805) DIR:(-60,-80,0) SPD:-300 
-2020-09-05 14:17:39,797 [ 1] INFO  Unity: SetDirection:(-75, -66, 0)
-2020-09-05 14:17:39,798 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4764,4983,805) DIR:(-75,-66,0) SPD:-300 
-2020-09-05 14:17:39,800 [ 1] INFO  Unity: SetPosition:(4791, 4940, 805)
-2020-09-05 14:17:39,801 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4791,4940,805) DIR:(-75,-66,0) SPD:-300 
-2020-09-05 14:17:39,897 [ 1] INFO  Unity: Stop
-2020-09-05 14:17:39,898 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4815,4958,805) DIR:(-75,-66,0) SPD:0 
-2020-09-05 14:17:39,899 [ 1] INFO  Unity: SetDirection:(-87, -49, 0)
-2020-09-05 14:17:39,900 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4815,4958,805) DIR:(-87,-49,0) SPD:0 
-2020-09-05 14:17:40,015 [ 1] INFO  Unity: SetDirection:(-95, -31, 0)
-2020-09-05 14:17:40,016 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4815,4958,805) DIR:(-95,-31,0) SPD:0 
-2020-09-05 14:17:40,033 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{KeyNotFoundException: The given key was not present in the dictionary., System.Collections.Generic.Dictionary`2[System.Int32,Models.Item].get_Item (Int32 key) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/Dictionary.cs:150)
-UIQuestInfo.SetQuestInfo (Models.Quest quest) (at Assets/Scripts/UI/QuestSystem/UIQuestInfo.cs:64)
-UIQuestSystem.OnQuestSelected (.ListViewItem item) (at Assets/Scripts/UI/QuestSystem/UIQuestSystem.cs:104)
-ListView.set_SelectedItem (.ListViewItem value) (at Assets/Scripts/UI/ListView/ListView.cs:58)
-ListView+ListViewItem.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Assets/Scripts/UI/ListView/ListView.cs:39)
-UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
-UnityEngine.EventSystems.EventSystem:Update()
-}</args></log4net.Error>
-2020-09-05 14:17:40,082 [ 1] INFO  Unity: MoveForward
-2020-09-05 14:17:40,083 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4815,4958,805) DIR:(-95,-31,0) SPD:300 
-2020-09-05 14:17:40,691 [ 1] INFO  Unity: SetDirection:(-99, -13, 0)
-2020-09-05 14:17:40,692 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4635,4886,805) DIR:(-99,-13,0) SPD:300 
-2020-09-05 14:17:40,834 [ 1] INFO  Unity: SetDirection:(-100, 6, 0)
-2020-09-05 14:17:40,835 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4590,4877,805) DIR:(-100,6,0) SPD:300 
-2020-09-05 14:17:40,883 [ 1] INFO  Unity: Stop
-2020-09-05 14:17:40,885 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4575,4877,805) DIR:(-100,6,0) SPD:0 
-2020-09-05 14:17:40,934 [ 1] INFO  Unity: SetDirection:(-97, 26, 0)
-2020-09-05 14:17:40,935 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4575,4877,805) DIR:(-97,26,0) SPD:0 
-2020-09-05 14:17:41,032 [ 1] INFO  Unity: SetDirection:(-89, 45, 0)
-2020-09-05 14:17:41,033 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4575,4877,805) DIR:(-89,45,0) SPD:0 
-2020-09-05 14:17:41,066 [ 1] INFO  Unity: MoveForward
-2020-09-05 14:17:41,067 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4575,4877,805) DIR:(-89,45,0) SPD:300 
-2020-09-05 14:17:41,133 [ 1] INFO  Unity: SetDirection:(-79, 61, 0)
-2020-09-05 14:17:41,134 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4559,4885,805) DIR:(-79,61,0) SPD:300 
-2020-09-05 14:17:41,332 [ 1] INFO  Unity: SetDirection:(-67, 74, 0)
-2020-09-05 14:17:41,333 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4511,4921,805) DIR:(-67,74,0) SPD:300 
-2020-09-05 14:17:41,688 [ 1] INFO  Unity: Stop
-2020-09-05 14:17:41,690 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4448,5005,805) DIR:(-67,74,0) SPD:0 
-2020-09-05 14:17:42,847 [ 1] INFO  Unity: MoveForward
-2020-09-05 14:17:42,848 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4448,5005,805) DIR:(-67,74,0) SPD:300 
-2020-09-05 14:17:43,635 [ 1] INFO  Unity: SetDirection:(-79, 61, 0)
-2020-09-05 14:17:43,636 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4301,5201,805) DIR:(-79,61,0) SPD:300 
-2020-09-05 14:17:44,214 [ 1] INFO  Unity: Stop
-2020-09-05 14:17:44,215 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4161,5306,805) DIR:(-79,61,0) SPD:0 
-2020-09-05 14:17:45,482 [ 1] INFO  Unity: MoveForward
-2020-09-05 14:17:45,483 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4161,5306,805) DIR:(-79,61,0) SPD:300 
-2020-09-05 14:17:46,444 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UIQuestInfo.SetQuestInfo (Models.Quest quest) (at Assets/Scripts/UI/QuestSystem/UIQuestInfo.cs:45)
-UIQuestDialog.UpdateQuest () (at Assets/Scripts/UI/QuestSystem/UIQuestDialog.cs:52)
-UIQuestDialog.SetQuest (Models.Quest quest) (at Assets/Scripts/UI/QuestSystem/UIQuestDialog.cs:25)
-Managers.QuestManager.ShowQuestDialog (Models.Quest quest) (at Assets/Scripts/Managers/QuestManager.cs:176)
-Managers.QuestManager.OpenNpcQuest (Int32 npcId) (at Assets/Scripts/Managers/QuestManager.cs:162)
-Managers.NPCManager.DoTaskInteractive (Common.Data.NpcDefine npc) (at Assets/Scripts/Managers/NPCManager.cs:75)
-Managers.NPCManager.Interactive (Common.Data.NpcDefine npc) (at Assets/Scripts/Managers/NPCManager.cs:45)
-NPCController+<DoInteractive>c__Iterator1.MoveNext () (at Assets/Scripts/GameObject/NPCController.cs:82)
-UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at D:/unity/Runtime/Export/Coroutines.cs:17)
-}</args></log4net.Error>
-2020-09-05 14:17:47,372 [ 1] INFO  Unity: SetDirection:(-89, 46, 0)
-2020-09-05 14:17:47,374 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(3701,5651,805) DIR:(-89,46,0) SPD:300 
-2020-09-05 14:17:47,769 [ 1] INFO  Unity: Stop
-2020-09-05 14:17:47,771 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(3609,5697,805) DIR:(-89,46,0) SPD:0 
-2020-09-05 14:18:27,393 [ 1] INFO  Unity: Character_2_Bug测试员 OnDestroy :ID:2 POS:(3609, 5697, 805) DIR:(-89, 46, 0) SPD:0 
-2020-09-05 14:18:27,394 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2020-09-05 14:18:27,395 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2020-09-15 12:03:00,215 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2020-09-15 12:03:00,216 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:177)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:172)

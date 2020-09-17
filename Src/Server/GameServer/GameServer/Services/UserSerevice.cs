@@ -64,7 +64,7 @@ namespace GameServer.Services
                     info.Name = c.Name;
                     info.Type = CharacterType.Player;
                     info.Class = (CharacterClass)c.Class;
-                    info.Tid = c.ID;
+                    info.ConfigId = c.TID;
                     sender.Session.Response.userLogin.Userinfo.Player.Characters.Add(info);
                 }
 
@@ -107,12 +107,13 @@ namespace GameServer.Services
                 Name = request.Name,
                 Class = (int)request.Class,
                 TID = (int)request.Class,
+                Level = 1,
                 MapID = 1,
                 MapPosX = 5000,
                 MapPosY = 4000,
                 MapPosZ = 820,
                 Gold = 100000,
-                Equips=new byte[28]
+                Equips = new byte[28]
             };
 
             var bag = new TCharacterBag();
@@ -145,11 +146,11 @@ namespace GameServer.Services
             foreach (var c in sender.Session.User.Player.Characters)
             {
                 NCharacterInfo info = new NCharacterInfo();
-                info.Id = 0;
+                info.Id = c.ID;
                 info.Name = c.Name;
                 info.Type = CharacterType.Player;
                 info.Class = (CharacterClass)c.Class;
-                info.Tid = c.ID;
+                info.ConfigId = c.TID;
                 sender.Session.Response.createChar.Characters.Add(info);
             }
 
@@ -160,30 +161,30 @@ namespace GameServer.Services
         {
             TCharacter dbchar = sender.Session.User.Player.Characters.ElementAt(request.characterIdx);
             Log.InfoFormat("UserGameEnterRequest: characterID:{0}:{1} Map:{2}", dbchar.ID, dbchar.Name, dbchar.MapID);
-            Character character = CharacterManager.Instance.AddCharacter(dbchar);
 
+            if (SessionManager.Instance.Sessions.ContainsKey(dbchar.ID))
+            {
+                sender.Session.Response.gameEnter = new UserGameEnterResponse();
+                sender.Session.Response.gameEnter.Result = Result.Failed;
+                sender.Session.Response.gameEnter.Errormsg = "该角色已在游戏中";
+                sender.SendResponse();
+                return;
+            }
+
+            Character character = CharacterManager.Instance.AddCharacter(dbchar);
+            SessionManager.Instance.AddSession(character.Id, sender);
             sender.Session.Response.gameEnter = new UserGameEnterResponse();
             sender.Session.Response.gameEnter.Result = Result.Success;
             sender.Session.Response.gameEnter.Errormsg = "None";
-            sender.Session.Response.gameEnter.Character = character.Info;//进入成功，发送初始角色信息
 
-            //道具测试系统
-            /*
-            int itemId = 1;
-            bool hasItem = character.ItemManager.HasItem(itemId);
-            Log.InfoFormat("HasItem:[{0}][{1}]", itemId, hasItem);
-            if (!hasItem)
-            {
-                character.ItemManager.AddItem(1, 20);
-                character.ItemManager.AddItem(2, 20);
-            }
-            Models.Item item = character.ItemManager.GetItem(itemId);
-            Log.InfoFormat("Item:[{0}][{1}]", itemId, item);
-            DBService.Instance.Save();
-            /*****************************************/
-
-            sender.SendResponse();
             sender.Session.Character = character;
+            sender.Session.PostResponser = character;
+
+            sender.Session.Response.gameEnter.Character = character.Info;
+            sender.SendResponse();//进入成功，发送初始角色信息
+
+            sender.Session.Character = character;
+            sender.Session.PostResponser = character;
             MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
         }
 
@@ -196,14 +197,17 @@ namespace GameServer.Services
             sender.Session.Response.gameLeave = new UserGameLeaveResponse();
             sender.Session.Response.gameLeave.Result = Result.Success;
             sender.Session.Response.gameLeave.Errormsg = "None";
-
             sender.SendResponse();
         }
 
         public void CharacterLeave(Character character)
         {
+            Log.InfoFormat("CharacterLeave: characterID:{0}:{1} Map:{2}", character.Id, character.Info.Name, character.Info.mapId);
             CharacterManager.Instance.RemoveCharacter(character.Id);
+            SessionManager.Instance.RemoveSession(character.Id);
+            character.Clear();
             MapManager.Instance[character.Info.mapId].CharacterLeave(character);
+
         }
     }
 }

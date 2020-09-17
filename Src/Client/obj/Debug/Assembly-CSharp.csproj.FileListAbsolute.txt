@@ -183,5 +183,3 @@ E:\极世界课时文件\mmorpg-l-13-start\Src\Client\obj\Debug\Assembly-CSharp.
 E:\极世界课时文件\mmorpg-l-13-start\Src\Client\obj\Debug\Assembly-CSharp.pdb
 E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\Common.pdb
 E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\Protocol.pdb
-E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\UnityEditor.UI.dll
-E:\极世界课时文件\mmorpg-l-13-start\Src\Client\Temp\bin\Debug\UnityEditor.UI.xml

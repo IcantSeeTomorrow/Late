@@ -6,3 +6,4 @@ E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Protocol\obj\Debug\Protocol.c
 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CopyComplete
 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Protocol\obj\Debug\Protocol.dll
 E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Protocol\obj\Debug\Protocol.pdb
+E:\极世界课时文件\mmorpg-l-13-start\Src\Lib\Protocol\obj\Debug\Protocol.csprojAssemblyReference.cache

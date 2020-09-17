@@ -29,6 +29,13 @@ public class UIManager : Singleton<UIManager>
         UIResources.Add(typeof(UICharEquip), new UIElement() { Resource = "UI/UICharEquip", Cache = false });
         UIResources.Add(typeof(UIQuestSystem), new UIElement() { Resource = "UI/UIQuestSystem", Cache = false });
         UIResources.Add(typeof(UIQuestDialog), new UIElement() { Resource = "UI/UIQuestDialog", Cache = false });
+        UIResources.Add(typeof(UIFriends), new UIElement() { Resource = "UI/UIFriends", Cache = true });
+        UIResources.Add(typeof(UIGuild), new UIElement() { Resource = "UI/Guild/UIGuild", Cache = false });
+        UIResources.Add(typeof(UIGuildList), new UIElement() { Resource = "UI/Guild/UIGuildList", Cache = false });
+        UIResources.Add(typeof(UIGuildPopNoGuild), new UIElement() { Resource = "UI/Guild/UIGuildPopNoGuild", Cache = false });
+        UIResources.Add(typeof(UIGuildPopCreate), new UIElement() { Resource = "UI/Guild/UIGuildPopCreate", Cache = false });
+        UIResources.Add(typeof(UIGuildApplyList), new UIElement() { Resource = "UI/Guild/UIGuildApplyList", Cache = false });
+
 
 
 

@@ -1,4 +1,5 @@
-﻿using Models;
+﻿using Managers;
+using Models;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,6 +11,8 @@ public class UIMain : MonoSingleton<UIMain>
 
     public Text avatarName;
     public Text avatarLevel;
+
+    public UITeam TeamWindow;
 
     protected override void OnStart()
     {
@@ -81,4 +84,35 @@ public class UIMain : MonoSingleton<UIMain>
     {
         UIManager.Instance.Show<UIQuestSystem>();
     }
+
+    public void OnClicFriends()
+    {
+        UIManager.Instance.Show<UIFriends>();
+    }
+
+    public void OnClickGuild()
+    {
+        GuildManager.Instance.ShowGuild();
+    }
+
+    public void OnCllickRide()
+    {
+
+    }
+
+    public void OnClickSetting()
+    {
+
+    }
+
+    public void OnClickSkill()
+    {
+
+    }
+
+    public void ShowTeamUI(bool show)
+    {
+        TeamWindow.ShowTeam(show);
+    }
+
 }

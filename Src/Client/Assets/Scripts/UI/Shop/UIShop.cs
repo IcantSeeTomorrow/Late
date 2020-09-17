@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Services;
 
 /// <summary>
 /// 
@@ -20,6 +21,7 @@ public class UIShop : UIWindow
 
     private void Start()
     {
+        ItemService.Instance.OnShopUpdate = () => { this.moeny.text = User.Instance.CurrentCharacter.Gold.ToString(); };/*垃圾试试看*/
         StartCoroutine(InitItems());
     }
 

@@ -76,7 +76,7 @@
     "Position": {
       "X": 2178,
       "Y": 3993,
-      "Z": 320
+      "Z": 357
     },
     "Direction": {
       "X": 0,
@@ -107,8 +107,16 @@
     "MapID": 4,
     "LinkTo": 4,
     "Descript": null,
-    "Position": null,
-    "Direction": null
+    "Position": {
+      "X": -2199,
+      "Y": 2198,
+      "Z": 421
+    },
+    "Direction": {
+      "X": 71,
+      "Y": 70,
+      "Z": 0
+    }
   },
   "8": {
     "ID": 8,
@@ -116,7 +124,15 @@
     "MapID": 4,
     "LinkTo": 0,
     "Descript": null,
-    "Position": null,
-    "Direction": null
+    "Position": {
+      "X": -2693,
+      "Y": -3225,
+      "Z": -38
+    },
+    "Direction": {
+      "X": 71,
+      "Y": 70,
+      "Z": 0
+    }
   }
 }

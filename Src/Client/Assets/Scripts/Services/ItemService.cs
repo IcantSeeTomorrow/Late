@@ -7,11 +7,14 @@ using Models;
 using Network;
 using SkillBridge.Message;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Services
 {
     class ItemService : Singleton<ItemService>, IDisposable
     {
+        public UnityAction OnShopUpdate;/*垃圾试试看*/
+
         public ItemService()
         {
             MessageDistributer.Instance.Subscribe<ItemBuyResponse>(this.OnItemBuy);
@@ -40,7 +43,10 @@ namespace Services
         {
             MessageBox.Show("购买结果：" + message.Result + "\n" + message.Errormsg, "购买完成");
 
-            //TODO:购买后刷新金钱
+            /*垃圾试试看*/
+            if (this.OnShopUpdate != null)
+                this.OnShopUpdate();
+            //TODO:购买后刷新金钱显示  
         }
 
         Item pendingEquip = null;

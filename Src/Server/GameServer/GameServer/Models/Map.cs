@@ -35,6 +35,9 @@ namespace GameServer.Models
         }
         internal MapDefine Define;
 
+        /// <summary>
+        /// 地图中的角色，以CharacterID为Key
+        /// </summary>
         Dictionary<int, MapCharacter> MapCharacters = new Dictionary<int, MapCharacter>();
 
 
@@ -105,8 +108,9 @@ namespace GameServer.Models
 
         private void SendCharacterLeaveMap(NetConnection<NetSession> sender, Character character)
         {
+            Log.InfoFormat("SendCharacterLeaveMap To {0}:{1} : Map:{2} character:{3}{4}",sender.Session.Character.Id,sender.Session.Character.Info.Name, this.Define.ID, character.Id,character.Info.Name);
             sender.Session.Response.mapCharacterLeave = new MapCharacterLeaveResponse();
-            sender.Session.Response.mapCharacterLeave.characterId = character.Id;
+            sender.Session.Response.mapCharacterLeave.entityId = character.entityId;
             sender.SendResponse();
         }
 
